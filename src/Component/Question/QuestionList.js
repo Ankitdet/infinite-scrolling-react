@@ -34,7 +34,7 @@ class QuestionList extends React.Component {
     loadContact = () => {
 
         const { per, page, contacts } = this.state;
-        const url = `https://api.stackexchange.com/2.2/questions?page=${page}&pagesize=${per}&order=desc&sort=activity&site=stackoverflow`
+        const url = `https://api.stackexchange.com/2.2/questions?page=${page}&pagesize=${per}&order=desc&sort=activity&site=stackoverflow&filter=!9_bDDx5Ia`
         _fetch(url)
             .then(response => response.json())
             .then(json => this.setState({
