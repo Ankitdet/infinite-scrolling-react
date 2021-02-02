@@ -1,0 +1,36 @@
+{
+  "name": "infinite-scrolling-react",
+  "version": "1.0.0",
+  "description": "infinite-scrolling-react-app ",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^3.0.0",
+    "moment": "^2.29.1",
+    "react": "^16.8.2",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^16.8.2",
+    "react-modal": "^3.12.1",
+    "react-scripts": "2.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankitdet/infinite-scrolling-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ankitdet/infinite-scrolling-react/issues"
+  },
+  "homepage": "https://github.com/Ankitdet/infinite-scrolling-react#readme",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
